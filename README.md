@@ -1,6 +1,6 @@
 <h1>Estrutura de controle e laços de repetição </h1>
 
-<h4>>Vamos começar falando do comando de decisão IF</h4>
+<h4>Vamos começar falando do comando de decisão IF</h4>
 
 <p>O If Serve para você condicionar sua regra de négocio, o IF funciona como o SE </p>
 
