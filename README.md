@@ -44,16 +44,16 @@
 
 _______________________________________________________________________________________________________________
 
-<h4>Vamos falar agora sobre o <strong>Switch Case</strong>, uma estrutura de decisão muito legal, ela deve ser usada, qunado você já sabe quis os valores que vao ser coletados.</h4>
+<h4>Vamos falar agora sobre o Switch Case, uma estrutura de decisão muito legal, ela deve ser usada, qunado você já sabe quais os valores que vão ser coletados.</h4>
 
 <p>Abaixo você verá a sintaxe</p>
 
 <h5>ALERTA</h5>
-<p>logo abaixo da condição do case, deverá colocar um BREAK, caso você esqueça, ele vai executar a estrução de baixo, aconselho você que testar sem o BREAK para ver a reação.</p>
+<p>logo abaixo da condição do case, deverá colocar um <strong>BREAK</strong>, caso você esqueça, ele vai executar a estrução de baixo, aconselho você que testar sem o BREAK para ver a reação.</p>
 
-<?php<br>
 
-$diaDaSemana = 5;//date("w");<br>
+
+$diaDaSemana = 5;//date("w");<br><br>
 
 
 switch($diaDaSemana){<br>
@@ -84,8 +84,7 @@ switch($diaDaSemana){<br>
 }<br>
 
 
-?><br>
 
-<p>O default e usado quando a variavel que foi coletada, não se encaixa em nenhum dos outros casos.</p>
+<p>O <strong>default</strong> e usado quando a variavel que foi coletada, não se encaixa em nenhum dos outros casos.</p>
 
 
