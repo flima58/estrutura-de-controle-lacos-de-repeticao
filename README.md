@@ -51,8 +51,7 @@ ________________________________________________________________________________
 <h5>ALERTA</h5>
 <p>logo abaixo da condição do case, deverá colocar um <strong>BREAK</strong>, caso você esqueça, ele vai executar a estrução de baixo, aconselho você que testar sem o BREAK para ver a reação.</p>
 
-
-
+```html
 $diaDaSemana = 5;//date("w");<br><br>
 
 
@@ -82,6 +81,9 @@ switch($diaDaSemana){<br>
         echo "Não é um dia da semana";<br>
                    
 }<br>
+```
+
+
 
 
 
