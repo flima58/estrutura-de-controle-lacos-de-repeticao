@@ -20,15 +20,15 @@ $idadeMelhor = 65;
 
 if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){
 
-    echo "<h1 style='color:red;'>Criança</h1>";
+    echo "Criança";
 
 }elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){
 
-    echo "<h1 style='color: yellow;'>Adolecente</h1>";
+    echo "Adolecente";
 
 }else /*Não, caso não seja nenhum dos else if*/{
 
-    echo "<h1 style='color: blue;'>Adulto</h1>";
+    echo "Adulto";
 
 }
 
@@ -38,6 +38,6 @@ if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianc
 <p>Também vamos ver o operador ternario, o IF de uma linha só<p>
 
 <p>A sintaxe é:</p>
-<p>ECHO (Condição)? caso a condição seja verdadeira : caso a condição seja falsa </p>
+<p>ECHO (Condição) ?*ENTÃO* caso a condição seja verdadeira : caso a condição seja falsa </p>
 
-<p>echo ($idadeAtual > 18)?"<h1 style='color: blue;'>Maior de idade</h1>":"<h1 style='color: red;'>Menor de idade</h1>";
+<p>echo ($idadeAtual > 18) ? "Maior de idade" : "Menor de idade";
