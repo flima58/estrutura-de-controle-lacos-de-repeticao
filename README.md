@@ -8,32 +8,46 @@
 <p>ELSEIF = SE NÃO </p>
 <p>ELSE = NÃO </p>
 
-<p><?php</p>
 
-<p>$idadeAtual = $_GET['idade']; /*Pega os valores colocado na URL, depois do ? 
-                        EX: http://localhost/estrutura-de-controle-lacos-de-repeticao/if/exemplo01.php?idade=17*/</p>
+```html 
 
-<p>$idadeCrianca = 12;</p>
-<p>$idadeMaior = 18;</p>
-<p>$idadeMelhor = 65;</p>
+<?php
+
+$idadeAtual = $_GET['idade']; /*Pega os valores colocado na URL, depois do ? 
+                        EX: http://localhost/estrutura-de-controle-lacos-de-repeticao/if/exemplo01.php?idade=17*/
+
+$idadeCrianca = 12;
+$idadeMaior = 18;
+$idadeMelhor = 65;
 
 
-<p>if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){</p>
+if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){
 
     echo "Criança";
 
-<p>}elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){</p>
+}elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){
 
     echo "Adolecente";
 
-<p>}else /*Não, caso não seja nenhum dos else if*/{</p>
+}else /*Não, caso não seja nenhum dos else if*/{
 
    echo "Adulto";
 
-<p> }</p>
+}
 
 
-<p>?></p>
+?>
+
+
+
+
+
+
+
+```
+
+
+
 
 <p>Também vamos ver o operador ternario, o IF de uma linha só<p>
 
@@ -52,35 +66,35 @@ ________________________________________________________________________________
 <p>logo abaixo da condição do case, deverá colocar um <strong>BREAK</strong>, caso você esqueça, ele vai executar a estrução de baixo, aconselho você que testar sem o BREAK para ver a reação.</p>
 
 ```html
-$diaDaSemana = 5;//date("w");<br><br>
+$diaDaSemana = 5;//date("w");  
 
 
-switch($diaDaSemana){<br>
-    case 0 :<br>
-        echo "Domingo";<br>
-        break;<br>
-    case 1 : <br>
-        echo "Segunda-feira";<br>
-        break;<br>
-    case 2:<br>
-        echo "Terça-feira";<br>
-        break;<br>
-    case 3:<br>
-        echo "Quarta-feira";<br>
-        break; <br>
-    case 4:<br>
-        echo "Quita-feira";<br>
-        break;<br>
-    case 5:<br>
-        echo "Sexta-feira";<br>
-        break;<br>
+switch($diaDaSemana){ 
+    case 0 : 
+        echo "Domingo"; 
+        break; 
+    case 1 :  
+        echo "Segunda-feira"; 
+        break; 
+    case 2: 
+        echo "Terça-feira"; 
+        break; 
+    case 3: 
+        echo "Quarta-feira"; 
+        break;  
+    case 4: 
+        echo "Quita-feira"; 
+        break; 
+    case 5: 
+        echo "Sexta-feira"; 
+        break; 
     case 6:
-        echo "Sábado";<br>
-        break; <br>
-    default:<br>
-        echo "Não é um dia da semana";<br>
+        echo "Sábado"; 
+        break;  
+    default: 
+        echo "Não é um dia da semana"; 
                    
-}<br>
+} 
 ```
 
 
