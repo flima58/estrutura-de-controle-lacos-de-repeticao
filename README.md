@@ -1,6 +1,6 @@
 <h1>Estrutura de controle e laços de repetição </h1>
 
-<p>Vamos começar falando do comando de decisão IF</p>
+<h4>>Vamos começar falando do comando de decisão IF</h4>
 
 <p>O If Serve para você condicionar sua regra de négocio, o IF funciona como o SE </p>
 
@@ -41,3 +41,51 @@
 <p>ECHO (Condição) ?*ENTÃO* caso a condição seja verdadeira : caso a condição seja falsa </p>
 
 <p>echo ($idadeAtual > 18) ? "Maior de idade" : "Menor de idade";
+
+_______________________________________________________________________________________________________________
+
+<h4>Vamos falar agora sobre o <strong>Switch Case</strong>, uma estrutura de decisão muito legal, ela deve ser usada, qunado você já sabe quis os valores que vao ser coletados.</h4>
+
+<p>Abaixo você verá a sintaxe</p>
+
+<h5>ALERTA</h5>
+<p>logo abaixo da condição do case, deverá colocar um BREAK, caso você esqueça, ele vai executar a estrução de baixo, aconselho você que testar sem o BREAK para ver a reação.</p>
+
+<?php<br>
+
+$diaDaSemana = 5;//date("w");<br>
+
+
+switch($diaDaSemana){<br>
+    case 0 :<br>
+        echo "Domingo";<br>
+        break;<br>
+    case 1 : <br>
+        echo "Segunda-feira";<br>
+        break;<br>
+    case 2:<br>
+        echo "Terça-feira";<br>
+        break;<br>
+    case 3:<br>
+        echo "Quarta-feira";<br>
+        break; <br>
+    case 4:<br>
+        echo "Quita-feira";<br>
+        break;<br>
+    case 5:<br>
+        echo "Sexta-feira";<br>
+        break;<br>
+    case 6:
+        echo "Sábado";<br>
+        break; <br>
+    default:<br>
+        echo "Não é um dia da semana";<br>
+                   
+}<br>
+
+
+?><br>
+
+<p>O default e usado quando a variavel que foi coletada, não se encaixa em nenhum dos outros casos.</p>
+
+
