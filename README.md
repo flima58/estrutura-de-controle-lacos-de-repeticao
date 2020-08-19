@@ -8,32 +8,32 @@
 <p>ELSEIF = SE NÃO </p>
 <p>ELSE = NÃO </p>
 
-<?php
+<p><?php</p>
 
-$idadeAtual = $_GET['idade']; /*Pega os valores colocado na URL, depois do ? 
-                        EX: http://localhost/estrutura-de-controle-lacos-de-repeticao/if/exemplo01.php?idade=17*/
+<p>$idadeAtual = $_GET['idade']; /*Pega os valores colocado na URL, depois do ? 
+                        EX: http://localhost/estrutura-de-controle-lacos-de-repeticao/if/exemplo01.php?idade=17*/</p>
 
-$idadeCrianca = 12;
-$idadeMaior = 18;
-$idadeMelhor = 65;
-
-
-if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){
-
-    echo "Criança";
-
-}elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){
-
-    echo "Adolecente";
-
-}else /*Não, caso não seja nenhum dos else if*/{
-
-    echo "Adulto";
-
-}
+<p>$idadeCrianca = 12;</p>
+<p>$idadeMaior = 18;</p>
+<p>$idadeMelhor = 65;</p>
 
 
-?>
+<p>if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){</p>
+
+    <p>echo "Criança";</p>
+
+<p>}elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){</p>
+
+    <p>echo "Adolecente";</p>
+
+<p>}else /*Não, caso não seja nenhum dos else if*/{</p>
+
+   <p> echo "Adulto";</p>
+
+<p> }</p>
+
+
+<p>?></p>
 
 <p>Também vamos ver o operador ternario, o IF de uma linha só<p>
 
