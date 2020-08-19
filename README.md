@@ -20,15 +20,15 @@
 
 <p>if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianca > $idadeAtual){</p>
 
-    <p>echo "Criança";</p>
+    echo "Criança";
 
 <p>}elseif /*SE NÃO, coloco qunado quero pegar mais de uma condição */ ($idadeMaior > $idadeAtual){</p>
 
-    <p>echo "Adolecente";</p>
+    echo "Adolecente";
 
 <p>}else /*Não, caso não seja nenhum dos else if*/{</p>
 
-   <p> echo "Adulto";</p>
+   echo "Adulto";
 
 <p> }</p>
 
