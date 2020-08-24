@@ -39,11 +39,6 @@ if /*SE, Codição para rodar o código que esta dentro do escopo*/($idadeCrianc
 ?>
 
 
-
-
-
-
-
 ```
 
 
@@ -97,10 +92,104 @@ switch($diaDaSemana){
 } 
 ```
 
-
-
-
-
 <p>O <strong>default</strong> e usado quando a variavel que foi coletada, não se encaixa em nenhum dos outros casos.</p>
 
+
+___________________________________________________________________________________________________________
+
+<h4>Laço de repetição FOR</h4>
+
+<p>Você deve usar O FOR quando você souber quando o FOR deve parar.</p>
+
+```html 
+
+for($i = 0( Variavel de contador ); $i < 10 (Condição de parada do FOR); $i++ (O alto incremente, mas também posso decrementar)){
+
+     echo "<h1>".$i."</h1>";
+
+}
+
+```
+
+```html 
+
+
+for ($i = 0; $i < 100; $i+=5){
+    echo $j."<br>";
+}
+
+
+```
+<h4>Laço de repetição FOREACH</h4>
+
+<p>O foreach é usado para percorrer arrays e imprimir os seus dados.</p>
+
+```html
+
+foreach($meses (Variavel do nosso array) as $key (o indice do Array ) => $value (O valor do array) ){
+
+        echo $value[$key];
+    }
+
+```
+
+
+<h4>While</h4>
+
+<p> Faça enquanto for verdadeira a condição</p>
+
+<p>Exemplos abaixo da sintaxe</p>
+
+
+```html
+<?php
+
+$condicao = true;
+
+while($condicao){
+
+    $numero = rand(1,10);
+
+    if($numero === 3){
+        echo "TRÊS !!!!";
+        $condicao = false;
+
+    }
+        echo "<span>$numero</span> ";
+
+
+}
+
+?>
+
+
+```
+
+<h4>DO WHILE</h4>
+
+<p>Ele e parecido com  While, só que ele executa e depois faz toda a verificaçã e pede parada, executa pelomenos uma vez, mesmo sendo falsa</p>
+
+<p>exemplo de sitanxe:</p>
+
+```html
+
+<?php
+
+
+$total = 150;
+$desconto = 0.9;
+
+do{
+
+    $total *= $desconto;
+
+}while($total > 100);   
+
+echo $total;
+
+?>
+
+
+
+```
 
